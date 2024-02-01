@@ -5,12 +5,12 @@ import { StyleSheet } from "react-native";
 import FlashMessage from "react-native-flash-message";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import BootSplash from "react-native-bootsplash";
-import { useAppFonts } from "@/hooks";
 import { NavigationContainer, Root } from "@/navigation";
 import { APIProvider } from "@/services/api/api-provider";
 import { getToken } from "@/storage";
 import { login } from "@/store/auth";
 import { theme } from "@/theme";
+import { useAppFonts } from "@/hooks";
 
 const App = () => {
   const appFontsLoaded = useAppFonts();

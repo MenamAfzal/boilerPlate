@@ -1,8 +1,8 @@
+import { AppFonts } from '@/constants/fonts';
 import { DefaultTheme } from '@react-navigation/native';
 import { createTheme } from '@shopify/restyle';
 import { scale } from 'react-native-size-matters';
 
-import { AppFonts } from '@/constants/fonts';
 
 export const palette = {
   primary: '#01C96C',

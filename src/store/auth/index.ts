@@ -1,6 +1,6 @@
+import { removeToken, setToken } from "@/storage";
 import { create } from "zustand";
 
-import { removeToken, setToken } from "@/storage";
 
 interface AuthState {
   token: string | null;

@@ -2,7 +2,6 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
-import { useIsFirstTime } from '@/hooks';
 import { Onboarding } from '@/screens';
 import { useAuth } from '@/store/auth';
 
@@ -10,6 +9,7 @@ import type { AppStackParamList } from './app-navigator';
 import { AppNavigator } from './app-navigator';
 import { AuthNavigator } from './auth-navigator';
 import { NavigationContainer } from './navigation-container';
+import { useIsFirstTime } from '@/hooks';
 
 export type RootAppStackParamList = {
   Onboarding: undefined;

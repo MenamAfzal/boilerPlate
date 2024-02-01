@@ -1,3 +1,19 @@
 {
-  "extends": "@react-native/typescript-config/tsconfig.json"
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./src/*"],
+      },
+    /* Completeness */
+    "skipLibCheck": true,
+    "strict": false,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "forceConsistentCasingInFileNames":true                                
+  /* Skip type checking all .d.ts files. */
+  }
+ 
 }
