@@ -1,0 +1,38 @@
+export const data = [
+  {
+    //   img: require('../assets/images/pencl.png'),
+    title: 'Jhon Wick',
+    detail: 'User Experience Designer at Conrad labs',
+    address: 'Rawalpindi',
+    status: 'Hired',
+    color: '#01C96C',
+    time: 'Applied 6 hours ago',
+  },
+  {
+    //   img: require('../assets/images/rightTick.png'),
+    title: 'Jhon Wick',
+    detail: 'User Experience Designer at Conrad labs',
+    address: 'Rawalpindi',
+    status: 'shortlisted',
+    color: '#5386E4',
+    time: 'Applied 6 hours ago',
+  },
+  {
+    //   img: require('../assets/images/clock.png'),
+    title: 'Jhon Wick',
+    detail: 'User Experience Designer at Conrad labs',
+    address: 'Rawalpindi',
+    status: 'Rejected',
+    color: '#FE6D73',
+    time: 'Applied 6 hours ago',
+  },
+  {
+    //   img: require('../assets/images/person.png'),
+    title: 'Jhon Wick',
+    detail: 'User Experience Designer at Conrad labs',
+    address: 'Rawalpindi',
+    status: 'Pending',
+    color: '#FFBC42',
+    time: 'Applied 6 hours ago',
+  },
+];
